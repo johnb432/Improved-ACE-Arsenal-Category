@@ -1,0 +1,14 @@
+name = "Improved-ACE-Arsenal-Category"
+prefix = "improved_ace_arsenal_category"
+author = "johnb43"
+template = "cba"
+mainprefix = "x"
+files = [
+    "CHANGELOG.md",
+    "meta.cpp",
+    "mod.cpp",
+    "LICENSE",
+    "README.md"
+]
+folder_optionals = false
+sig_version = 3

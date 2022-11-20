@@ -1,0 +1,2 @@
+PREP(refreshMedicalTab);
+PREP(refreshSurvivalTab);

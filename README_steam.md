@@ -1,59 +1,21 @@
-[b]Zeus Additions[/b] adds a handful of modules to the Zeus interface. Requires ZEN on all clients. This mod is a client side mod.
+[b]Improved ACE Arsenal Category[/b] adds two tabs to the ACE arsenal to categorize items better. This mod is a client side mod.
 
-[h2]Modules[/h2]
+[b]CBA settings to customize what is categorized and where:[/b] To change them, go to Options -> Addon Options -> Improved ACE Arsenal Category
+
+Inputs are arrays of strings. Any item listed under the "Misc." items tab in the ACE arsenal can be inserted into the arrays.
 [list]
-[*] Add ACE Drag and Carry Options
-[*] Add ACE Drag Body Option
-[*] Change AI Crew Behaviour
-[*] Change Captivity status
-[*] Change Channel Visibility
-[*] Change Grass Rendering
-[*] Change RHS APS
-[*] Change TFAR Radio Range
-[*] Configure Doors (Extended)
-[*] Create ACE Medical Injuries
-[*] Delete Object (forced)
-[*] End Mission with Player Modifier
-[*] Loadout: Apply to group
-[*] Loadout: Apply to single unit
-[*] Loadout: Set
-[*] Loadout: Presets
-[*] Open ACE Medical Menu
-[*] Pause Time
-[*] Place Map Markers
-[*] Paradrop Unit Action
-[*] Paradrop Units
-[*] Prevent Vehicle from Exploding
-[*] Remove Grenades from AI
-[*] Show Mission Object Counter
-[*] Spawn ACE Medical Resupply
-[*] Spawn Ammo Resupply for Players
-[*] Spawn Ammo Resupply for Players (Selection)
-[*] Toggle Consciousness (forced)
-[*] Toggle Dust Storm Script
-[*] Track Unit Death
-[*] Unload ACE Cargo
+[*] [b]Enable Medical Tab:[/b] If enabled, it will show the tab with all medical items which are defined by the next setting.
+[*] [b]Medical Tab Items:[/b] Defines what items are shown in the medical tab.
+[*] [b]Enable Survival Tab:[/b] If enabled, it will show the tab with all survival items which are defined by the next setting.
+[*] [b]Survival Tab Items:[/b] Defines what items are shown in the survival tab.
 [/list]
-For more detailed information on the modules and what they do, click [url=https://github.com/johnb432/Zeus-Additions#readme]here[/url].
-
-This mod also adds:
-[list]
-[*] the ability to drag dead corpses as Zeus. In order to do so, you must be in the map screen.
-[/list]
-
-[b]Numerous CBA settings to customize modules:[/b] To change them, go to Options -> Addon Options -> Zeus Additions - Main
 
 [h2]Credit[/h2]
 
 Mod by johnb43
-[url=https://github.com/johnb432/Zeus-Additions]GitHub[/url]
+[url=https://github.com/johnb432/Improved-ACE-Arsenal-Category]GitHub[/url]
 
-Gear script originally made by cineafx, reworked by johnb43.
-Snow script made by JW & AZCoder, reworked by johnb43.
-Dog attack module made by Fred, reworked by johnb43.
-Parachute drop script by Kex & cobra4v320, reworked by johnb43.
-
-Thanks to [url=https://gitlab.com/sh4rdknight]sh4rdknight[/url] for enduring testing sessions.
+This mod was inspired by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2847017004]OUTDATED [ace] Improved Arsenal Category[/url].
 
 [h2]License[/h2]
 

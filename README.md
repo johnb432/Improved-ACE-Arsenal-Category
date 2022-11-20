@@ -11,7 +11,7 @@ Inputs are arrays of strings. Any item listed under the "Misc." items tab in the
 <h2>Credit</h2>
 
 Mod by johnb43<br/>
-[GitHub](https://github.com/johnb432/Zeus-Additions)
+[GitHub](https://github.com/johnb432/Improved-ACE-Arsenal-Category)
 
 This mod was inspired by [OUTDATED [ace] Improved Arsenal Category](https://steamcommunity.com/sharedfiles/filedetails/?id=2847017004).
 

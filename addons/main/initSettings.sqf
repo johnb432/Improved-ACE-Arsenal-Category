@@ -44,7 +44,7 @@
     {
         if (_this isEqualTo "") then {
             GVAR(medicalTabItems) = [];
-            GVAR(medicalTabItemsSetting) = "[]";
+            GVAR(medicalTabItemsSetting) = '[]';
         } else {
             // Make sure to remove invalid entries
             GVAR(medicalTabItems) = ((parseSimpleArray _this) apply {configName (_x call CBA_fnc_getItemConfig)}) - [""];
@@ -97,12 +97,51 @@
     {
         if (_this isEqualTo "") then {
             GVAR(survivalTabItems) = [];
-            GVAR(survivalTabItemsSetting) = "[]";
+            GVAR(survivalTabItemsSetting) = '[]';
         } else {
             // Make sure to remove invalid entries
             GVAR(survivalTabItems) = ((parseSimpleArray _this) apply {configName (_x call CBA_fnc_getItemConfig)}) - [""];
         };
 
         call FUNC(refreshSurvivalTab);
+    }
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(enableToolTab),
+    "CHECKBOX",
+    ["Enable Tool Tab", "Allows the usage of the tool items tab."],
+    COMPONENT_NAME,
+    true,
+    0,
+    {
+        call FUNC(refreshToolTab);
+    }
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(toolTabItemsSetting),
+    "EDITBOX",
+    ["Tool Tab Items", "Array of items allowed in the tool tab."],
+    COMPONENT_NAME,
+    '[
+        "MineDetector",
+        "ToolKit",
+        "ACE_DefusalKit",
+        "ACE_EntrenchingTool",
+        "ACE_Fortify",
+        "ACE_wirecutter"
+    ]',
+    0,
+    {
+        if (_this isEqualTo "") then {
+            GVAR(toolTabItems) = [];
+            GVAR(toolTabItemsSetting) = '[]';
+        } else {
+            // Make sure to remove invalid entries
+            GVAR(toolTabItems) = ((parseSimpleArray _this) apply {configName (_x call CBA_fnc_getItemConfig)}) - [""];
+        };
+
+        call FUNC(refreshToolTab);
     }
 ] call CBA_fnc_addSetting;

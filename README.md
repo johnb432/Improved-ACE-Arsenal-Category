@@ -1,4 +1,4 @@
-**Improved ACE Arsenal Category** adds two tabs to the ACE arsenal to categorize items better. This mod is a client side mod.
+**Improved ACE Arsenal Category** adds 3 tabs to the ACE arsenal to categorize items better. This mod is a client side mod.
 
 **CBA settings to customize what is categorized and where:** To change them, go to Options -> Addon Options -> Improved ACE Arsenal Category
 
@@ -7,6 +7,8 @@ Inputs are arrays of strings. Any item listed under the "Misc." items tab in the
 * **Medical Tab Items:** Defines what items are shown in the medical tab.
 * **Enable Survival Tab:** If enabled, it will show the tab with all survival items which are defined by the next setting.
 * **Survival Tab Items:** Defines what items are shown in the survival tab.
+* **Enable Tool Tab:** If enabled, it will show the tab with all tool items which are defined by the next setting.
+* **Tool Tab Items:** Defines what items are shown in the tool tab.
 
 <h2>Credit</h2>
 

@@ -2,6 +2,7 @@
 
 #define ICON_MEDICAL "\A3\ui_f\data\igui\cfg\actions\heal_ca.paa"
 #define ICON_SURVIVAL "\z\ace\addons\common\data\icon_banana_ca.paa"
+#define ICON_TOOL "\A3\ui_f\data\igui\cfg\actions\repair_ca.paa"
 
 #define DFUNC(var1) TRIPLES(ADDON,fnc,var1)
 

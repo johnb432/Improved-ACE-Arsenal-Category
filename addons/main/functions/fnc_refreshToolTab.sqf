@@ -23,11 +23,11 @@ if (GVAR(enableToolTab)) then {
         GVAR(toolTabSlot) = [GVAR(toolTabItems), "Tools", ICON_TOOL] call ace_arsenal_fnc_addRightPanelButton;
 
         // If all slots are full, notify player
-        if (GVAR(toolTabSlot) == -1) then {
-            ["The tool tab could not be added because all custom arsenal tabs have been taken!", true, 5, 2] call ace_common_fnc_displayText;
+        if (GVAR(toolTabSlot) != -1) exitWith {};
 
-            GVAR(toolTabSlot) = nil;
-        };
+        ["The tool tab could not be added because all custom arsenal tabs have been taken!", true, 5, 2] call ace_common_fnc_displayText;
+
+        GVAR(toolTabSlot) = nil;
     } else {
         // Modify items
         [GVAR(toolTabItems), "Tools", ICON_TOOL, GVAR(toolTabSlot)] call ace_arsenal_fnc_addRightPanelButton;
@@ -36,6 +36,6 @@ if (GVAR(enableToolTab)) then {
     if (isNil QGVAR(toolTabSlot)) exitWith {};
 
     // Remove tab
-    ace_arsenal_customRightPanelButtons set [GVAR(toolTabSlot), nil];
+    ace_arsenal_customRightPanelButtons deleteAt GVAR(toolTabSlot);
     GVAR(toolTabSlot) = nil;
 };

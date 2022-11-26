@@ -55,6 +55,41 @@
 ] call CBA_fnc_addSetting;
 
 [
+    QGVAR(medicalTabItemsKATSetting),
+    "EDITBOX",
+    ["Medical Tab Items KAT", "Array of items from KAT allowed in the medical tab."],
+    COMPONENT_NAME,
+    '[
+        "Attachable_Helistretcher",
+        "kat_aatKit","kat_accuvac","kat_AED","kat_X_AED","kat_crossPanel",
+        "kat_chestSeal","kat_larynx","kat_guedel","kat_Pulseoximeter","kat_stethoscope",
+        "kat_scalpel","kat_retractor","kat_clamp","kat_plate","kat_vacuum",
+        "kat_bloodIV_O","kat_bloodIV_A","kat_bloodIV_AB","kat_bloodIV_B",
+        "kat_bloodIV_O_N","kat_bloodIV_A_N","kat_bloodIV_AB_N","kat_bloodIV_B_N",
+        "kat_bloodIV_O_500","kat_bloodIV_A_500","kat_bloodIV_AB_500","kat_bloodIV_B_500",
+        "kat_bloodIV_O_N_500","kat_bloodIV_A_N_500","kat_bloodIV_AB_N_500","kat_bloodIV_B_N_500",
+        "kat_bloodIV_O_250","kat_bloodIV_A_250","kat_bloodIV_AB_250","kat_bloodIV_B_250",
+        "kat_bloodIV_O_N_250","kat_bloodIV_A_N_250","kat_bloodIV_AB_N_250","kat_bloodIV_B_N_250",
+        "KAT_Empty_bloodIV_250","KAT_Empty_bloodIV_500",
+        "kat_CarbonateItem","kat_PainkillerItem","kat_IV_16","kat_IO_FAST","kat_naloxone","kat_EACA","kat_TXA",
+        "kat_norepinephrine","kat_phenylephrine","kat_nitroglycerin","kat_amiodarone","kat_lidocaine","kat_atropine",
+        "kat_ketamine","kat_fentanyl","kat_nalbuphine","kat_lorazepam","kat_flumazenil","kat_etomidate"
+    ]',
+    0,
+    {
+        if (_this isEqualTo "") then {
+            GVAR(medicalTabItemsKAT) = [];
+            GVAR(medicalTabItemsKATSetting) = '[]';
+        } else {
+            // Make sure to remove invalid entries
+            GVAR(medicalTabItemsKAT) = ((parseSimpleArray _this) apply {configName (_x call CBA_fnc_getItemConfig)}) - [""];
+        };
+
+        call FUNC(refreshMedicalTab);
+    }
+] call CBA_fnc_addSetting;
+
+[
     QGVAR(enableSurvivalTab),
     "CHECKBOX",
     ["Enable Survival Tab", "Allows the usage of the survival items tab."],

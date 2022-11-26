@@ -23,11 +23,11 @@ if (GVAR(enableSurvivalTab)) then {
         GVAR(survivalTabSlot) = [GVAR(survivalTabItems), "Survival", ICON_SURVIVAL] call ace_arsenal_fnc_addRightPanelButton;
 
         // If all slots are full, notify player
-        if (GVAR(survivalTabSlot) == -1) then {
-            ["The survival tab could not be added because all custom arsenal tabs have been taken!", true, 5, 2] call ace_common_fnc_displayText;
+        if (GVAR(survivalTabSlot) != -1) exitWith {};
 
-            GVAR(survivalTabSlot) = nil;
-        };
+        ["The survival tab could not be added because all custom arsenal tabs have been taken!", true, 5, 2] call ace_common_fnc_displayText;
+
+        GVAR(survivalTabSlot) = nil;
     } else {
         // Modify items
         [GVAR(survivalTabItems), "Survival", ICON_SURVIVAL, GVAR(survivalTabSlot)] call ace_arsenal_fnc_addRightPanelButton;
@@ -36,6 +36,6 @@ if (GVAR(enableSurvivalTab)) then {
     if (isNil QGVAR(survivalTabSlot)) exitWith {};
 
     // Remove tab
-    ace_arsenal_customRightPanelButtons set [GVAR(survivalTabSlot), nil];
+    ace_arsenal_customRightPanelButtons deleteAt GVAR(survivalTabSlot);
     GVAR(survivalTabSlot) = nil;
 };

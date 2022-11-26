@@ -57,7 +57,7 @@
 [
     QGVAR(medicalTabItemsKATSetting),
     "EDITBOX",
-    ["Medical Tab Items KAT", "Array of items from KAT allowed in the medical tab."],
+    ["Medical Tab Items KAT + ACE Pharmacy", "Array of items from KAT and ACE Pharmacy allowed in the medical tab."],
     COMPONENT_NAME,
     '[
         "Attachable_Helistretcher",
@@ -73,7 +73,8 @@
         "KAT_Empty_bloodIV_250","KAT_Empty_bloodIV_500",
         "kat_CarbonateItem","kat_PainkillerItem","kat_IV_16","kat_IO_FAST","kat_naloxone","kat_EACA","kat_TXA",
         "kat_norepinephrine","kat_phenylephrine","kat_nitroglycerin","kat_amiodarone","kat_lidocaine","kat_atropine",
-        "kat_ketamine","kat_fentanyl","kat_nalbuphine","kat_lorazepam","kat_flumazenil","kat_etomidate"
+        "kat_ketamine","kat_fentanyl","kat_nalbuphine","kat_lorazepam","kat_flumazenil","kat_etomidate",
+        "kat_phenylephrine_inject"
     ]',
     0,
     {

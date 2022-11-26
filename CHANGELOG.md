@@ -1,5 +1,10 @@
 # Changelog for Improved ACE Arsenal Category 26.11.2022
 
+1.0.0.3
+- Added compatibility with ACE Pharmacy.
+
+# Changelog for Improved ACE Arsenal Category 26.11.2022
+
 1.0.0.2
 - Added compatibility with KAT - Advanced Medical REWRITE.
 - Changed it, so if you remove a tab in the middle of the custom panels, it will not leave a gap anymore.

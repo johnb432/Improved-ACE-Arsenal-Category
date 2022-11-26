@@ -1,5 +1,6 @@
 [b]Improved ACE Arsenal Category[/b] adds 3 tabs to the ACE arsenal to categorize items better. This mod is a client side mod.
 If [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2020940806]KAT - Advanced Medical REWRITE[/url] is loaded, it will detect if the medical tab from KAT was added or not. If yes, it will allow you to modify the existing tab. If no, it will add a new tab.
+This mod is compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2558422366]ACE Pharmacy[/url] too.
 
 [b]CBA settings to customize what is categorized and where:[/b] To change them, go to Options -> Addon Options -> Improved ACE Arsenal Category
 

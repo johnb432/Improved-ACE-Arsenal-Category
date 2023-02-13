@@ -1,3 +1,8 @@
+# Changelog for Improved ACE Arsenal Category 13.2.2023
+
+1.0.0.4
+- Added some compatibility for KAT to the default list.
+
 # Changelog for Improved ACE Arsenal Category 26.11.2022
 
 1.0.0.3

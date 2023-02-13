@@ -61,7 +61,7 @@
     COMPONENT_NAME,
     '[
         "Attachable_Helistretcher",
-        "kat_aatKit","kat_accuvac","kat_AED","kat_X_AED","kat_crossPanel",
+        "kat_ncdKit","kat_aatKit","kat_accuvac","kat_AED","kat_X_AED","kat_crossPanel",
         "kat_chestSeal","kat_larynx","kat_guedel","kat_Pulseoximeter","kat_stethoscope",
         "kat_scalpel","kat_retractor","kat_clamp","kat_plate","kat_vacuum",
         "kat_bloodIV_O","kat_bloodIV_A","kat_bloodIV_AB","kat_bloodIV_B",
@@ -74,7 +74,7 @@
         "kat_CarbonateItem","kat_PainkillerItem","kat_IV_16","kat_IO_FAST","kat_naloxone","kat_EACA","kat_TXA",
         "kat_norepinephrine","kat_phenylephrine","kat_nitroglycerin","kat_amiodarone","kat_lidocaine","kat_atropine",
         "kat_ketamine","kat_fentanyl","kat_nalbuphine","kat_lorazepam","kat_flumazenil","kat_etomidate",
-        "kat_phenylephrine_inject"
+        "kat_phenylephrine_inject","kat_CaffeineItem","kat_PervitinItem"
     ]',
     0,
     {

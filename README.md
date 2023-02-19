@@ -1,4 +1,4 @@
-**Improved ACE Arsenal Category** adds 3 tabs to the ACE arsenal to categorize items better. This mod is a client side mod.
+**Improved ACE Arsenal Category** is a client side mod and adds 3 tabs to the ACE arsenal to categorize items better.
 If [KAT - Advanced Medical REWRITE](https://steamcommunity.com/sharedfiles/filedetails/?id=2020940806) is loaded, it will detect if the medical tab from KAT was added or not. If yes, it will allow you to modify the existing tab. If no, it will add a new tab.
 This mod is compatible with [ACE Pharmacy](https://steamcommunity.com/sharedfiles/filedetails/?id=2558422366) too.
 
@@ -13,12 +13,15 @@ Inputs are arrays of strings. Any item listed under the "Misc." items tab in the
 * **Enable Tool Tab:** If enabled, it will show the tab with all tool items which are defined by the next setting.
 * **Tool Tab Items:** Defines what items are shown in the tool tab.
 
+<h2>Links</h2>
+
+* [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2891028247)
+* [GitHub](https://github.com/johnb432/Improved-ACE-Arsenal-Category)
+
 <h2>Credit</h2>
 
-Mod by johnb43<br/>
-[GitHub](https://github.com/johnb432/Improved-ACE-Arsenal-Category)
-
-This mod was inspired by [[ace] Improved Arsenal Category](https://steamcommunity.com/sharedfiles/filedetails/?id=2847017004).
+* Inspired by [[ace] Improved Arsenal Category](https://steamcommunity.com/sharedfiles/filedetails/?id=2847017004)
+* Mod by johnb43
 
 <h2>License</h2>
 

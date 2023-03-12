@@ -1,3 +1,8 @@
+# Changelog for Improved ACE Arsenal Category 12.3.2023
+
+1.0.0.5
+- Minor fix to CBA settings.
+
 # Changelog for Improved ACE Arsenal Category 13.2.2023
 
 1.0.0.4

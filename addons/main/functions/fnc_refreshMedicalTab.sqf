@@ -1,5 +1,4 @@
-#include "script_component.hpp"
-
+#include "..\script_component.hpp"
 /*
  * Author: johnb43
  * Refreshes the medical items tab.
@@ -22,7 +21,7 @@ if (GVAR(enableMedicalTab)) then {
     if (isNil QGVAR(foundKAT)) then {
         GVAR(foundKAT) = true;
 
-        if !(isClass (configFile >> "CfgPatches" >> "kat_misc") && {GETMVAR("kat_misc_arsenalMedCategory",false)}) exitWith {};
+        if !(!isNil "kat_misc" && {GETMVAR("kat_misc_arsenalMedCategory",false)}) exitWith {};
 
         private _index = ace_arsenal_customRightPanelButtons findIf {_x select 1 == ICON_MEDICAL_ACE};
 
@@ -36,7 +35,7 @@ if (GVAR(enableMedicalTab)) then {
     private _medicalIcon = ICON_MEDICAL;
 
     // Use ACE's icons and text if present
-    if (isClass (configFile >> "CfgPatches" >> "ace_medical_gui")) then {
+    if (!isNil "ace_medical_gui") then {
         _medicalText = localize "STR_ACE_Medical_GUI_Medical";
         _medicalIcon = ICON_MEDICAL_ACE;
     };

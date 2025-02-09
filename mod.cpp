@@ -10,6 +10,6 @@ tooltip = "Improved ACE Arsenal Category";
 tooltipOwned = "Improved ACE Arsenal Category";
 action = "https://github.com/johnb432/Improved-ACE-Arsenal-Category";
 actionName = "Github";
-overview = "A small mod that adds 3 tabs to the ACE arsenal, made by johnb43.";
+overview = "A small mod that adds 3 tabs to the ACE arsenal. Made by johnb43.";
 hidePicture = 0;
 hideName = 0;

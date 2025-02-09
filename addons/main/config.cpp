@@ -10,8 +10,11 @@ class CfgPatches {
             "ace_arsenal"
         };
         author = "johnb43";
-        authors[] = {"johnb43"};
+        authors[] = {
+            "johnb43"
+        };
         url = "https://github.com/johnb432/Improved-ACE-Arsenal-Category";
+        skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };
 };

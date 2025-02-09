@@ -1,3 +1,8 @@
+# Changelog for Improved ACE Arsenal Category 9.2.2025
+
+1.1.0.0
+- Update to build with latest HEMTT version
+
 # Changelog for Improved ACE Arsenal Category 12.3.2023
 
 1.0.0.5
